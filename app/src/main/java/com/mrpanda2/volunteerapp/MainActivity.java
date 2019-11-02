@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(MainActivity.this, VolunteerSignInActivity.class);
         startActivity(intent);
-        finish();
+        //finish();
     }
 
     public void SendToOrgProfile(){
@@ -226,7 +226,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(MainActivity.this, organizationSignInPage.class);
         startActivity(intent);
-        finish();
+        //finish();
     }
 
     @Override

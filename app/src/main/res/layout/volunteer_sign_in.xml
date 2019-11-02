@@ -13,7 +13,7 @@
         android:layout_width="194dp"
         android:layout_height="110dp"
 
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="450dp"
         android:text="Edit Profile"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -25,30 +25,19 @@
         android:layout_width="194dp"
         android:layout_height="110dp"
 
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="150dp"
         android:text="Events"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <Button
-        android:id="@+id/map_button"
-        android:layout_width="194dp"
-        android:layout_height="110dp"
-
-        android:layout_marginTop="250dp"
-        android:text="View Events Map"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/view_edit_vol_data"
+        android:id="@+id/previous_sessions"
         android:layout_width="194dp"
         android:layout_height="110dp"
-        android:layout_marginTop="375dp"
-        android:text="View/Edit Volunteer Data"
+        android:layout_marginTop="300dp"
+        android:text="View Previous Volunteer Sessions"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
